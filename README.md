@@ -5,7 +5,7 @@
 <!-- HEADER -->
 <div align="center">
   <h1 align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&pause=1000&color=FF6BD6&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Harsha+Fernando;BIS+Undergraduate+%7C+Web+%26+AI;Welcome+to+my+GitHub+profile" alt="Animated typing introduction" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&pause=1000&color=FF6BD6&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Harsha+Fernando;BIS+Undergraduate+%7C+USJP;Welcome+to+my+GitHub+profile" alt="Animated typing introduction" />
   </h1>
   
   <p align="center">
