@@ -1,4 +1,3 @@
-<!--last_refresh:2025-08-13-->
 <!-- Profile README for Harsha Fernando -->
 <!--last_refresh:2025-01-13--> <!-- Workflow marker - do not remove -->
 
@@ -61,11 +60,12 @@
 
 ---
 
+
 ## 📈 GitHub Stats
 <div align="center">
   
-  <!-- Fixed stats with include_all_commits and count_private for accurate counts -->
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Harsha-Fernando&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF6BD6&text_color=FFFFFF&icon_color=FF6BD6&ring_color=8B5CF6)
+  <!-- Use a different stats service that's more reliable -->
+  ![GitHub Stats](https://github-stats-alpha.vercel.app/api?username=Harsha-Fernando&cc=000&tc=fff&ic=fff&bc=000&theme=dark&include_all_commits=true&count_private=true)
   
   ![GitHub Streak](https://streak-stats.demolab.com?user=Harsha-Fernando&theme=radical&hide_border=true&background=0D1117&stroke=FF6BD6&ring=8B5CF6&fire=FF6BD6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF6BD6&sideLabels=8B5CF6&dates=8B5CF6)
   
@@ -111,9 +111,6 @@
 <div align="center">
   
   <p><em>�� Professional links coming soon...</em></p>
-  
-  <!-- Placeholder for future social links -->
-  <!-- <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a> -->
   
 </div>
 
