@@ -1,0 +1,82 @@
+name: Refresh Profile README
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # Daily at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update contribution counts and year
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER_LOGIN: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          FILE="README.md"
+          [[ -f "$FILE" ]] || exit 0
+
+          YEAR=$(date -u +%Y)
+          FROM_YTD="${YEAR}-01-01T00:00:00Z"
+          TO_NOW="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          FROM_LAST12="$(date -u -d '1 year ago' +%Y-%m-%dT00:00:00Z)"
+
+          # GraphQL query to get accurate contribution counts
+          read -r -d '' QUERY <<'GRAPHQL'
+          query($login:String!, $fromYTD:DateTime!, $from12:DateTime!, $to:DateTime!) {
+            user(login: $login) {
+              ytd: contributionsCollection(from:$fromYTD, to:$to) {
+                contributionCalendar { totalContributions }
+              }
+              last12: contributionsCollection(from:$from12, to:$to) {
+                contributionCalendar { totalContributions }
+              }
+            }
+          }
+          GRAPHQL
+
+          # Create JSON payload
+          JSON=$(jq -n --arg login "$USER_LOGIN" --arg fromYTD "$FROM_YTD" --arg from12 "$FROM_LAST12" --arg to "$TO_NOW" \
+            '{query: $ENV.QUERY, variables: {login:$login, fromYTD:$fromYTD, from12:$from12, to:$to}}')
+          JSON=$(jq --arg q "$QUERY" '.query=$q' <<<"$JSON")
+
+          # Call GitHub GraphQL API
+          RESP=$(curl -sS -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" \
+            -d "$JSON" https://api.github.com/graphql)
+
+          YTD=$(jq -r '.data.user.ytd.contributionCalendar.totalContributions // 0' <<<"$RESP")
+          LAST12=$(jq -r '.data.user.last12.contributionCalendar.totalContributions // 0' <<<"$RESP")
+
+          echo "Contributions YTD: $YTD, Last 12 months: $LAST12"
+
+          # Update README with real data
+          sed -i -E "s/(<!--current_year-->)[0-9]{4}(<!--\/current_year-->)/\1${YEAR}\2/" "$FILE"
+          sed -i -E "s/(<!--contrib_ytd-->)[0-9]+(<!--\/contrib_ytd-->)/\1${YTD}\2/" "$FILE"
+          sed -i -E "s/(<!--contrib_total-->)[0-9]+(<!--\/contrib_total-->)/\1${LAST12}\2/" "$FILE"
+
+          # Update refresh marker
+          TODAY=$(date -u +%F)
+          if grep -qE '<!--last_refresh:[0-9]{4}-[0-9]{2}-[0-9]{2}-->' "$FILE"; then
+            sed -i -E "s/<!--last_refresh:[0-9]{4}-[0-9]{2}-[0-9]{2}-->/<!--last_refresh:${TODAY}-->/" "$FILE"
+          else
+            sed -i "1s|^|<!--last_refresh:${TODAY}-->\n|" "$FILE"
+          fi
+
+      - name: Commit changes
+        run: |
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore(readme): auto-update contributions and year [skip ci]"
+            git push
+          else
+            echo "No changes needed."
+          fi
