@@ -25,28 +25,24 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_LOGIN: ${{ github.repository_owner }}
         run: |
-          set -euo pipefail
+          # Use simpler error handling
+          set -e
           
           echo "Fetching real-time stats for $USER_LOGIN..."
           
+          # Check if required tools are available
+          if ! command -v jq &> /dev/null; then
+            echo "jq is not available, installing..."
+            sudo apt-get update && sudo apt-get install -y jq
+          fi
+          
           # GraphQL query to get comprehensive stats
-          read -r -d '' QUERY <<'GRAPHQL'
+          cat > query.graphql <<'EOF'
           query($login:String!) {
             user(login: $login) {
               login
               name
-              email
-              createdAt
-              isHireable
-              location
-              company
-              bio
-              websiteUrl
-              twitterUsername
               followers {
-                totalCount
-              }
-              following {
                 totalCount
               }
               repositories(first: 100, isFork: false) {
@@ -54,29 +50,14 @@ jobs:
                 nodes {
                   stargazerCount
                   forkCount
-                  primaryLanguage {
-                    name
-                    color
-                  }
                 }
-              }
-              repositoriesContributedTo(first: 100, includeUserRepositories: true) {
-                totalCount
               }
               contributionsCollection {
                 totalCommitContributions
                 totalIssueContributions
                 totalPullRequestContributions
-                totalPullRequestReviewContributions
-                totalRepositoryContributions
                 contributionCalendar {
                   totalContributions
-                  weeks {
-                    contributionDays {
-                      contributionCount
-                      date
-                    }
-                  }
                 }
               }
               pullRequests(first: 100) {
@@ -85,21 +66,15 @@ jobs:
               issues(first: 100) {
                 totalCount
               }
-              starredRepositories(first: 100) {
-                totalCount
-              }
-              gists(first: 100) {
-                totalCount
-              }
             }
           }
-          GRAPHQL
+          EOF
 
           # Create JSON payload
-          JSON=$(jq -n --arg login "$USER_LOGIN" '{query: $ENV.QUERY, variables: {login:$login}}')
-          JSON=$(jq --arg q "$QUERY" '.query=$q' <<<"$JSON")
+          JSON=$(jq -n --arg login "$USER_LOGIN" '{query: $slurp, variables: {login:$login}}' --slurpfile slurp query.graphql)
 
           # Call GitHub GraphQL API
+          echo "Calling GitHub GraphQL API..."
           RESP=$(curl -sS -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" \
             -d "$JSON" https://api.github.com/graphql)
 
@@ -109,14 +84,21 @@ jobs:
             exit 1
           fi
 
-          # Extract stats
-          TOTAL_COMMITS=$(jq -r '.data.user.contributionsCollection.totalCommitContributions // 0' <<<"$RESP")
-          TOTAL_ISSUES=$(jq -r '.data.user.contributionsCollection.totalIssueContributions // 0' <<<"$RESP")
-          TOTAL_PRS=$(jq -r '.data.user.contributionsCollection.totalPullRequestContributions // 0' <<<"$RESP")
-          TOTAL_REPOS=$(jq -r '.data.user.repositories.totalCount // 0' <<<"$RESP")
-          TOTAL_STARS=$(jq -r '.data.user.repositories.nodes | map(.stargazerCount) | add // 0' <<<"$RESP")
-          TOTAL_FOLLOWERS=$(jq -r '.data.user.followers.totalCount // 0' <<<"$RESP")
-          TOTAL_CONTRIBUTIONS=$(jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0' <<<"$RESP")
+          # Check for GraphQL errors
+          if echo "$RESP" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "GraphQL errors found:"
+            echo "$RESP" | jq -r '.errors[].message'
+            exit 1
+          fi
+
+          # Extract stats with error handling
+          TOTAL_COMMITS=$(echo "$RESP" | jq -r '.data.user.contributionsCollection.totalCommitContributions // 0')
+          TOTAL_ISSUES=$(echo "$RESP" | jq -r '.data.user.contributionsCollection.totalIssueContributions // 0')
+          TOTAL_PRS=$(echo "$RESP" | jq -r '.data.user.contributionsCollection.totalPullRequestContributions // 0')
+          TOTAL_REPOS=$(echo "$RESP" | jq -r '.data.user.repositories.totalCount // 0')
+          TOTAL_STARS=$(echo "$RESP" | jq -r '.data.user.repositories.nodes | map(.stargazerCount) | add // 0')
+          TOTAL_FOLLOWERS=$(echo "$RESP" | jq -r '.data.user.followers.totalCount // 0')
+          TOTAL_CONTRIBUTIONS=$(echo "$RESP" | jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0')
           
           # Get current year contributions
           YEAR=$(date -u +%Y)
@@ -124,7 +106,7 @@ jobs:
           TO_NOW="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           
           # Query for YTD contributions
-          read -r -d '' YTD_QUERY <<'GRAPHQL'
+          cat > ytd_query.graphql <<'EOF'
           query($login:String!, $from:DateTime!, $to:DateTime!) {
             user(login: $login) {
               contributionsCollection(from:$from, to:$to) {
@@ -132,18 +114,18 @@ jobs:
               }
             }
           }
-          GRAPHQL
+          EOF
           
           YTD_JSON=$(jq -n --arg login "$USER_LOGIN" --arg from "$FROM_YTD" --arg to "$TO_NOW" \
-            '{query: $ENV.YTD_QUERY, variables: {login:$login, from:$from, to:$to}}')
-          YTD_JSON=$(jq --arg q "$YTD_QUERY" '.query=$q' <<<"$YTD_JSON")
+            '{query: $slurp, variables: {login:$login, from:$from, to:$to}}' --slurpfile slurp ytd_query.graphql)
           
+          echo "Fetching YTD contributions..."
           YTD_RESP=$(curl -sS -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" \
             -d "$YTD_JSON" https://api.github.com/graphql)
           
-          YTD_CONTRIBUTIONS=$(jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0' <<<"$YTD_RESP")
+          YTD_CONTRIBUTIONS=$(echo "$YTD_RESP" | jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0')
 
-          echo "Stats extracted:"
+          echo "Stats extracted successfully:"
           echo "Total Commits: $TOTAL_COMMITS"
           echo "Total Issues: $TOTAL_ISSUES"
           echo "Total PRs: $TOTAL_PRS"
@@ -179,7 +161,7 @@ jobs:
           - **Total Contributions**: $TOTAL_CONTRIBUTIONS
           - **Contributions This Year**: $YTD_CONTRIBUTIONS
           
-          ## �� Quick Stats Badges
+          ## Quick Stats Badges
           ![Commits](https://img.shields.io/badge/Commits-$TOTAL_COMMITS-FF6BD6?style=for-the-badge&logo=github&logoColor=white)
           ![Issues](https://img.shields.io/badge/Issues-$TOTAL_ISSUES-8B5CF6?style=for-the-badge&logo=github&logoColor=white)
           ![PRs](https://img.shields.io/badge/Pull%20Requests-$TOTAL_PRS-22C55E?style=for-the-badge&logo=github&logoColor=white)
@@ -189,7 +171,7 @@ jobs:
 
       - name: Update README with Live Stats
         run: |
-          set -euo pipefail
+          set -e
           
           # Get stats from previous step
           TOTAL_COMMITS="${{ steps.get-stats.outputs.total_commits }}"
@@ -245,6 +227,6 @@ jobs:
       - name: Create Stats Summary
         run: |
           if [[ -f "stats_summary.md" ]]; then
-            echo "## �� Live Stats Summary Created"
+            echo "## Live Stats Summary Created"
             cat stats_summary.md
           fi
