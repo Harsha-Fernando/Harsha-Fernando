@@ -76,7 +76,7 @@
 <div align="center">
   
   <!-- Use a different stats service that's more reliable -->
-  ![GitHub Stats](https://github-stats-alpha.vercel.app/api?username=Harsha-Fernando&cc=000&tc=fff&ic=fff&bc=000&theme=dark&include_all_commits=true&count_private=true)
+  
   
   ![GitHub Streak](https://streak-stats.demolab.com?user=Harsha-Fernando&theme=radical&hide_border=true&background=0D1117&stroke=FF6BD6&ring=8B5CF6&fire=FF6BD6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF6BD6&sideLabels=8B5CF6&dates=8B5CF6)
   
