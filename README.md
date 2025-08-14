@@ -45,7 +45,6 @@
 - **🚀 Working on**: UniApi & AI-powered travel planner improvements
 - **📚 Learning**: Advanced TypeScript patterns, clean architecture for Next.js, performance optimization
 - **💡 Interests**: High-performance web apps, clean UI/UX, developer experience, open source
-- **🌱 2025 Goal**: Ship two production OSS tools and contribute weekly to the community
 
 </details>
 
