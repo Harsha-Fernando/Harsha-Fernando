@@ -8,7 +8,6 @@
 <!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-14-->
-<!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-13-->
 <!--last_refresh:2025-08-13-->
 <!--last_refresh:2025-08-13-->
@@ -37,8 +36,9 @@
 <div align="center">
   
   ![Contributions this year](https://img.shields.io/badge/dynamic/json?url=https://github-contributions-api.jogruber.de/v4/Harsha-Fernando?y=2025&label=Contributions%20(2025)&query=$.total&color=FF6BD6&style=for-the-badge&logo=github&logoColor=white)
-  ![Total contributions](https://img.shields.io/badge/Total%20Contributions-204+-8B5CF6?style=for-the-badge&logo=git&logoColor=white)
-  ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Harsha-Fernando&label=Public%20Repos&query=$.public_repos&color=06B6D4&style=for-the-badge&logo=repository&logoColor=white)
+  ![Total contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions-api.jogruber.de/v4/Harsha-Fernando&label=Total%20Contributions&query=$.total&color=8B5CF6&style=for-the-badge&logo=git&logoColor=white)
+  ![Total Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Harsha-Fernando&label=Total%20Repos&query=$.public_repos&color=06B6D4&style=for-the-badge&logo=repository&logoColor=white&suffix=+)
+  ![GitHub Stars](https://img.shields.io/github/stars/Harsha-Fernando?style=for-the-badge&logo=star&color=22C55E&logoColor=white&label=Total%20Stars)
   
 </div>
 
@@ -206,14 +206,8 @@
   <a href="https://linkedin.com/in/yourprofile">
     <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-06B6D4?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="https://discord.gg/yourinvite">
-    <img src="https://img.shields.io/badge/Discord-22C55E?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
   
-  <p><em><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png" alt="Sparkles" width="20" height="20" /> Open to collaboration and new opportunities!</em></p>
+
   
 </div>
 
