@@ -12,7 +12,6 @@
 <!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-14-->
-<!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-13-->
 <!--last_refresh:2025-08-13-->
 <!--last_refresh:2025-08-13-->
@@ -125,14 +124,18 @@
 
 ---
 
-## ⭐ Featured Projects
+## 🚀 Featured Projects
 
-| Project                                                                     | Description                   | Technologies                      | Demo                                                         |
-| --------------------------------------------------------------------------- | ----------------------------- | --------------------------------- | ------------------------------------------------------------ |
-| **[UniApi Deployed](https://github.com/Harsha-Fernando/UniApi-Deployed)**   | Production-ready API platform | Next.js, Supabase, Tailwind CSS   | [Live Demo](https://uniapi.lk)                               |
-| **[Travela Improved](https://github.com/Harsha-Fernando/travela-improved)** | AI-powered travel planning    | React, TypeScript, AI Integration | [Live Demo](https://travela-for-you.vercel.app/)             |
-| **[Sleep Better](https://github.com/Harsha-Fernando/sleep)**                | Minimal wellness app          | JavaScript, Modern CSS, PWA       | [Live Demo](https://sleep-better.vercel.app/)                |
-| **[Final Finder](https://github.com/Harsha-Fernando/final-finder)**         | Map-based location finder     | Vanilla JS, Maps API, Modern HTML | [Live Demo](https://harsha-fernando.github.io/final-finder/) |
+<div align="center">
+
+|                                   Project                                   |          Description          |                                                                                                                                                                                         Technologies                                                                                                                                                                                         |                                                                                      Demo                                                                                      |
+| :-------------------------------------------------------------------------: | :---------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  **[UniApi Deployed](https://github.com/Harsha-Fernando/UniApi-Deployed)**  | Production-ready API platform | <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /> |                [<img src="https://img.shields.io/badge/Live_Demo-FF6BD6?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />](https://uniapi.lk)                |
+| **[Travela Improved](https://github.com/Harsha-Fernando/travela-improved)** |  AI-powered travel planning   |     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="AI Integration" />      |       [<img src="https://img.shields.io/badge/Live_Demo-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />](https://travela-for-you.vercel.app/)       |
+|        **[Sleep Better](https://github.com/Harsha-Fernando/sleep)**         |     Minimal wellness app      |                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /> <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA" />                |        [<img src="https://img.shields.io/badge/Live_Demo-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />](https://sleep-better.vercel.app/)         |
+|     **[Final Finder](https://github.com/Harsha-Fernando/final-finder)**     |   Map-based location finder   |    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Maps API" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />    | [<img src="https://img.shields.io/badge/Live_Demo-22C55E?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />](https://harsha-fernando.github.io/final-finder/) |
+
+</div>
 
 ---
 
