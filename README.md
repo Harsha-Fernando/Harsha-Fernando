@@ -36,17 +36,6 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Quick Stats
-<div align="center">
-  
-  ![Contributions this year](https://img.shields.io/badge/dynamic/json?url=https://github-contributions-api.jogruber.de/v4/Harsha-Fernando?y=2025&label=Contributions%20(2025)&query=$.total&color=FF6BD6&style=for-the-badge&logo=github&logoColor=white)
-  ![Total contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions-api.jogruber.de/v4/Harsha-Fernando&label=Total%20Contributions&query=$.total&color=8B5CF6&style=for-the-badge&logo=git&logoColor=white)
-  ![Total Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Harsha-Fernando&label=Total%20Repos&query=$.public_repos&color=06B6D4&style=for-the-badge&logo=repository&logoColor=white&suffix=+)
-  ![GitHub Stars](https://img.shields.io/github/stars/Harsha-Fernando?style=for-the-badge&logo=star&color=22C55E&logoColor=white&label=Total%20Stars)
-  
-</div>
-
----
 
 ## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> About Me
 
