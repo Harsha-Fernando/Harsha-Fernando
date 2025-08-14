@@ -12,7 +12,6 @@
 <!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-14-->
-<!--last_refresh:2025-08-14-->
 <!--last_refresh:2025-08-13-->
 <!--last_refresh:2025-08-13-->
 <!--last_refresh:2025-08-13-->
@@ -37,7 +36,6 @@
 
 ---
 
-
 ## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> About Me
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
@@ -59,6 +57,7 @@
 <div align="center">
 
 ### Frontend & UI
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
@@ -70,6 +69,7 @@
 </p>
 
 ### Backend & Database
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
@@ -79,6 +79,7 @@
 </p>
 
 ### Tools & Platforms
+
 <p align="center">
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
@@ -123,70 +124,14 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Star.png" alt="Star" width="25" height="25" /> Featured Projects
+## ⭐ Featured Projects
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20"/> UniApi Deployed
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Harsha-Fernando&repo=UniApi-Deployed&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Harsha-Fernando/UniApi-Deployed)
-
-**Production-ready API platform**
-- <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="16"/> Next.js
-- <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="16"/> Supabase  
-- <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="16"/> Tailwind CSS
-
-[<img src="https://img.shields.io/badge/Live%20Demo-FF6BD6?style=for-the-badge&logo=vercel&logoColor=white" />](https://uniapi.lk)
-
-</td>
-<td width="50%">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Airplane.png" width="20"/> Travela Improved
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Harsha-Fernando&repo=travela-improved&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Harsha-Fernando/travela-improved)
-
-**AI-powered travel planning**
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="16"/> React
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="16"/> TypeScript
-- <img src="https://www.vectorlogo.zone/logos/openai/openai-icon.svg" width="16"/> AI Integration
-
-[<img src="https://img.shields.io/badge/Live%20Demo-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" />](https://travela-for-you.vercel.app/)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sleeping%20Face.png" width="20"/> Sleep Better
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Harsha-Fernando&repo=sleep&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Harsha-Fernando/sleep)
-
-**Minimal wellness app**
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="16"/> JavaScript
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="16"/> Modern CSS
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="16"/> PWA
-
-[<img src="https://img.shields.io/badge/Live%20Demo-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" />](https://sleep-better.vercel.app/)
-
-</td>
-<td width="50%">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Round%20Pushpin.png" width="20"/> Final Finder
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Harsha-Fernando&repo=final-finder&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Harsha-Fernando/final-finder)
-
-**Map-based location finder**
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="16"/> Vanilla JS
-- <img src="https://www.vectorlogo.zone/logos/google_maps/google_maps-icon.svg" width="16"/> Maps API
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="16"/> Modern HTML
-
-[<img src="https://img.shields.io/badge/Live%20Demo-22C55E?style=for-the-badge&logo=github&logoColor=white" />](https://harsha-fernando.github.io/final-finder/)
-
-</td>
-</tr>
-</table>
-
-</div>
+| Project                                                                     | Description                   | Technologies                      | Demo                                                         |
+| --------------------------------------------------------------------------- | ----------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| **[UniApi Deployed](https://github.com/Harsha-Fernando/UniApi-Deployed)**   | Production-ready API platform | Next.js, Supabase, Tailwind CSS   | [Live Demo](https://uniapi.lk)                               |
+| **[Travela Improved](https://github.com/Harsha-Fernando/travela-improved)** | AI-powered travel planning    | React, TypeScript, AI Integration | [Live Demo](https://travela-for-you.vercel.app/)             |
+| **[Sleep Better](https://github.com/Harsha-Fernando/sleep)**                | Minimal wellness app          | JavaScript, Modern CSS, PWA       | [Live Demo](https://sleep-better.vercel.app/)                |
+| **[Final Finder](https://github.com/Harsha-Fernando/final-finder)**         | Map-based location finder     | Vanilla JS, Maps API, Modern HTML | [Live Demo](https://harsha-fernando.github.io/final-finder/) |
 
 ---
 
@@ -200,13 +145,10 @@
   <a href="https://linkedin.com/in/yourprofile">
     <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  
 
-  
 </div>
 
 ---
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" />
-  
