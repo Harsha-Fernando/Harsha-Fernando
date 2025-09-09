@@ -405,14 +405,7 @@
 
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/> GitHub Stats
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Harsha-Fernando&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsha-Fernando&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117"/>
-</div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Harsha-Fernando&theme=radical&hide_border=true&background=0D1117&stroke=FF6BD6&ring=8B5CF6&fire=FF6BD6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF6BD6&sideLabels=8B5CF6&dates=8B5CF6" alt="GitHub Streak Stats"/>
-</div>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Harsha-Fernando&theme=onedark&no-bg=true&no-frame=true&column=7&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A&title=MultiLanguage,Stars,Commits,Repositories,PullRequest,Issues,Followers" alt="GitHub Trophies"/>
