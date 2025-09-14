@@ -501,10 +501,7 @@
 
 <div align="center">
   
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-FF6BD6?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://linkedin.com/in/yourprofile">
+  <a href="https://www.linkedin.com/in/harsha-deshappriya-fernando/">
     <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 
