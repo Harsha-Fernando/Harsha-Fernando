@@ -757,13 +757,7 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/> GitHub Stats
 
-
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Harsha-Fernando&theme=radical&hide_border=true&background=0D1117&stroke=FF6BD6&ring=8B5CF6&fire=FF6BD6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF6BD6&sideLabels=8B5CF6&dates=8B5CF6" alt="GitHub Streak Stats"/>
-</div>
 
 
 
