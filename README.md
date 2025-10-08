@@ -758,12 +758,6 @@
 
 ---
 
-
-
-
-
----
-
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> Activity & Contributions
 
 <div align="center">
