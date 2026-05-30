@@ -1,9 +1,12 @@
 <!--last_refresh:2026-05-30-->
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0D1117&center=true&vCenter=true&width=800&lines=%3E_SYSTEM.INIT();+%5BOK%5D;%3E_HELLO%2C+I'M+HARSHA+FERNANDO;%3E_FULL-STACK+DEVELOPER;%3E_BUILDING+PRACTICAL+SYSTEMS" alt="Typing SVG" />
-  </a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=%3E_SYSTEM.INIT();+%5BOK%5D;%3E_HELLO%2C+I'M+HARSHA+FERNANDO;%3E_FULL-STACK+DEVELOPER;%3E_BUILDING+PRACTICAL+SYSTEMS" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0D1117&center=true&vCenter=true&width=800&lines=%3E_SYSTEM.INIT();+%5BOK%5D;%3E_HELLO%2C+I'M+HARSHA+FERNANDO;%3E_FULL-STACK+DEVELOPER;%3E_BUILDING+PRACTICAL+SYSTEMS" alt="Typing SVG" />
+</picture>
 </div>
+
+
 
 <br>
 
