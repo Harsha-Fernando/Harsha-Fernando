@@ -1,127 +1,110 @@
-<!--last_refresh:2026-05-30-->
-<!--last_refresh:2026-05-30-->
-<!--last_refresh:2026-05-30-->
-<!--last_refresh:2026-05-30-->
-<!-- Profile README for Harsha Fernando -->
-<!--last_refresh:2026-05-30--> <!-- Workflow marker - do not remove -->
-
-<!-- HEADER -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Harsha%20Fernando&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=BIS%20Undergraduate%20|%20Full-Stack%20Developer&descAlignY=55&descSize=20" />
-
-  <h1 align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&pause=1000&color=FF6BD6&center=true&vCenter=true&width=750&lines=Welcome+to+my+GitHub+profile;Full-Stack+Developer;Open+Source+Enthusiast;Always+Learning+New+Technologies" alt="Animated typing introduction" />
-  </h1>
-
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Harsha-Fernando&style=flat-square&color=FF6BD6" alt="Profile views counter" />
-    <img src="https://img.shields.io/badge/Colombo%2C%20Sri%20Lanka-FF6BD6?style=flat-square&logo=google-maps&logoColor=white" alt="Location badge" />
-    <img src="https://img.shields.io/badge/Status-Available%20for%20Opportunities-22C55E?style=flat-square&logo=handshake&logoColor=white" alt="Status badge" />
-    <img src="https://img.shields.io/github/followers/Harsha-Fernando?style=flat-square&color=8B5CF6&logo=github&logoColor=white" alt="GitHub followers" />
-  </p>
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> About Me
-
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" width="18"/> Currently studying **Business Information Systems** at University of Sri Jayewardenepura
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" width="18"/> Main focus: **Ruby**, **Ruby on Rails**, and **Sinatra**
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="18"/> Strong background in **Java** and **Spring Boot**
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="18"/> Building with **JavaScript**, **TypeScript**, **React**, **Next.js**, **Svelte**, and **Astro**
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="18"/> Also working in **Python** (FastAPI), **PHP**, **C#**, and **C**
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="18"/> Also working with Go — exploring functional languages: Haskell, Elixir, OCaml
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="18"/> Daily driving **Linux** with **LazyVim** — passionate about **Open Source** and **Developer Experience**
-
----
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> Tech Stack
-
-<div align="center">
-
-### Languages
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="Go" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/haskell/haskell-original.svg" alt="Haskell" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-icon.svg" alt="Elixir" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ocaml/ocaml-original.svg" alt="OCaml" width="40" height="40"/>
-</p>
-
-### Frameworks & Frontend
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="Ruby on Rails" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/svelte/svelte-original.svg" alt="Svelte" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg" alt="Astro" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/>
-</p>
-
-### Databases, Tools & Environment
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" alt="Supabase" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neovim/neovim-original.svg" alt="Neovim / LazyVim" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="Figma" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" alt="Vercel" width="40" height="40"/>
-</p>
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> Activity & Contributions
-
-<div align="center">
-
-  ### Contribution Activity
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsha-Fernando&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=FF6BD6&line=8B5CF6&point=FF6BD6&area=true&area_color=8B5CF6&area_alpha=0.2" alt="GitHub Activity Graph"/>
-
-  ### Contribution Snake
-  <img src="https://raw.githubusercontent.com/Harsha-Fernando/Harsha-Fernando/output/snake.svg" alt="Contribution Snake"/>
-
-</div>
-
----
-
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" width="25"> Let's Connect
-
-<div align="center">
-
-  <a href="https://www.linkedin.com/in/harsha-deshappriya/">
-    <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0D1117&center=true&vCenter=true&width=800&lines=%3E_SYSTEM.INIT();+%5BOK%5D;%3E_HELLO%2C+I'M+HARSHA+FERNANDO;%3E_FULL-STACK+DEVELOPER;%3E_BUILDING+PRACTICAL+SYSTEMS" alt="Typing SVG" />
   </a>
-
 </div>
 
----
+<br>
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" />
-</div>
+## ╔═[ <code><b>neural_link.about</b></code> ]
+
+<table width="100%" style="border-collapse: collapse;">
+  <tr>
+    <td width="55%" valign="top">
+      <blockquote>
+        <code><b>[SYS_ADMIN_ACCESS_GRANTED]</b></code><br>
+        <code><b>ROLE:</b> BIS Undergraduate / Full-Stack Developer</code><br>
+        <code><b>BASE:</b> Colombo, Sri Lanka</code><br>
+        <code><b>RUNTIME:</b> Linux | LazyVim</code><br>
+        <code><b>SIGNAL:</b> Open Source | Dev Experience | Practical Systems</code>
+      </blockquote>
+<ul>
+  <li><img src="https://skillicons.dev/icons?i=github&theme=dark" width="16" valign="middle"> Studying <b>Business Information Systems</b> at the <b>University of Sri Jayewardenepura</b>.</li>
+  <li><img src="https://skillicons.dev/icons?i=ruby&theme=dark" width="16" valign="middle"> Building primarily with <b>Ruby</b>, <b>Rails</b>, and <b>Sinatra</b>.</li>
+  <li><img src="https://skillicons.dev/icons?i=java&theme=dark" width="16" valign="middle"> Strong backend track in <b>Java</b> and <b>Spring Boot</b>.</li>
+  <li><img src="https://skillicons.dev/icons?i=react&theme=dark" width="16" valign="middle"> Frontend work with <b>TS/JS</b>, <b>React</b>, <b>Next.js</b>, <b>Svelte</b>, and <b>Astro</b>.</li>
+  <li><img src="https://skillicons.dev/icons?i=python&theme=dark" width="16" valign="middle"> Also shipping with <b>Python</b>, <b>PHP</b>, <b>C#</b>, <b>C</b>, and <b>Go</b>.</li>
+  <li><img src="https://skillicons.dev/icons?i=haskell&theme=dark" width="16" valign="middle"> Exploring functional systems through <b>Haskell</b>, <b>Elixir</b>, and <b>OCaml</b>.</li>
+</ul>
+    </td>
+    <td width="45%" align="center" valign="center">
+      <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Cyberpunk coding animation" width="100%" style="border-radius: 8px;">
+    </td>
+  </tr>
+</table>
+
+## ╔═[ <code><b>tech_stack.loadout</b></code> ]
+
+### `>_ LANGUAGES`
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ruby,java,js,ts,python,php,cs,c,go,haskell&theme=dark" />
+  </a>
+  <br>
+  <br>
+  <img alt="Elixir" src="https://img.shields.io/badge/Elixir-070A18?style=for-the-badge&logo=elixir&logoColor=FF2BD6">
+  <img alt="OCaml" src="https://img.shields.io/badge/OCaml-070A18?style=for-the-badge&logo=ocaml&logoColor=FF7A00">
+</p>
+
+### `>_ FRAMEWORKS / FRONTEND`
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=rails,spring,react,nextjs,svelte,astro,fastapi,tailwind&theme=dark" />
+  </a>
+  <br>
+  <img alt="Sinatra" src="https://img.shields.io/badge/Sinatra-070A18?style=for-the-badge&logo=ruby&logoColor=FF2BD6">
+</p>
+
+### `>_ DATABASES / TOOLS / ENV`
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,supabase,linux,neovim,git,docker,figma,vercel&theme=dark" />
+  </a>
+</p>
+
+
+## ╔═[ <code><b>github.telemetry</b></code> ]
+
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Harsha-Fernando&show_icons=true&hide_border=true&bg_color=050713&title_color=00F5FF&text_color=DFE6FF&icon_color=FF2BD6&ring_color=39FF14" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Harsha-Fernando&layout=compact&hide_border=true&bg_color=050713&title_color=00F5FF&text_color=DFE6FF" height="165" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Harsha-Fernando&hide_border=true&background=050713&stroke=00F5FF&ring=FF2BD6&fire=39FF14&currStreakNum=DFE6FF&sideNums=DFE6FF&currStreakLabel=00F5FF&sideLabels=00F5FF&dates=AEB7D2" width="100%" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsha-Fernando&bg_color=050713&color=DFE6FF&line=00F5FF&point=FF2BD6&area=true&area_color=101421&hide_border=true" width="100%" alt="Activity Graph" />
+</p>
+
+<p align="center">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Harsha-Fernando/Harsha-Fernando/output/snake.svg" width="100%">
+</p>
+
+## ╔═[ <code><b>uplink.connect</b></code> ]
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/harsha-deshappriya-fernando/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-050713?style=for-the-badge&logo=linkedin&logoColor=00F5FF">
+  </a>
+  <a href="https://github.com/Harsha-Fernando">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-050713?style=for-the-badge&logo=github&logoColor=FF2BD6">
+  </a>
+</p>
+
+<br>
+<hr style="border: 1px solid rgba(0, 245, 255, 0.22);">
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Harsha-Fernando&style=for-the-badge&color=050713&label=VISITORS" alt="Profile Views" />
+</p>
+
+<br>
+<hr style="border: 1px solid rgba(0, 245, 255, 0.22);">
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=0D1117&center=true&vCenter=true&width=600&lines=%5B+SYSTEM.EXIT(0)+%5D+%2F%2F+Built+with+intention.;%5B+EOF+%5D+%2F%2F+Thanks+for+visiting.;%5B+%2F%2F+%5D+See+you+on+the+other+side." alt="Typing SVG" />
+  </a>
+</p>
