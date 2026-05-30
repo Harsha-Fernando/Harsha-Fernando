@@ -109,7 +109,8 @@
 <hr style="border: 1px solid rgba(0, 245, 255, 0.22);">
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=0D1117&center=true&vCenter=true&width=600&lines=%5B+SYSTEM.EXIT(0)+%5D+%2F%2F+Built+with+intention.;%5B+EOF+%5D+%2F%2F+Thanks+for+visiting.;%5B+%2F%2F+%5D+See+you+on+the+other+side." alt="Typing SVG" />
-  </a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=%5B+SYSTEM.EXIT(0)+%5D+%2F%2F+Built+with+intention.;%5B+EOF+%5D+%2F%2F+Thanks+for+visiting.;%5B+%2F%2F+%5D+See+you+on+the+other+side." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=0D1117&center=true&vCenter=true&width=600&lines=%5B+SYSTEM.EXIT(0)+%5D+%2F%2F+Built+with+intention.;%5B+EOF+%5D+%2F%2F+Thanks+for+visiting.;%5B+%2F%2F+%5D+See+you+on+the+other+side." alt="Typing SVG" />
+</picture>
 </p>
