@@ -110,7 +110,7 @@
 
 <div align="center">
 
-  <a href="https://www.linkedin.com/in/harsha-deshappriya-fernando/">
+  <a href="https://www.linkedin.com/in/harsha-deshappriya/">
     <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 
